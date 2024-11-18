@@ -1,9 +1,11 @@
 <script setup>
-import Counter from '../components/Counter.vue'
+import LandingComp from '@/components/Landing/LandingComp.vue'
+import ExperienceComp from '@/components/Experience/ExperienceComp.vue'
 </script>
 
 <template>
   <main>
-    <Counter />
+    <!-- <LandingComp /> -->
+    <ExperienceComp />
   </main>
 </template>
