@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .sectiontwo {
   background-color: #642b62;
   padding-top: 1px;

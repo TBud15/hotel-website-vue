@@ -16,3 +16,13 @@
   font-family: 'GeistRegular';
   src: url('@/assets/fonts/geist-regular.otf');
 }
+
+@font-face {
+  font-family: 'DMSansBold';
+  src: url('@/assets/fonts/dmsans-bold.ttf');
+}
+
+@font-face {
+  font-family: 'DMSansRegular';
+  src: url('@/assets/fonts/dmsans-regular.ttf');
+}

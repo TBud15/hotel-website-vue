@@ -6,14 +6,18 @@
       <p class="tagline">A Countryside Getaway</p>
       <button class="cta-button">Book Your Stay Now</button>
     </div>
+    <div class="frame-image" :style="{ backgroundImage: 'url(' + imageFrameUrl + ')' }"></div>
   </div>
 </template>
 
 <script>
+import imageFrame from '@/assets/other/image-frame.png'
+
 export default {
   data() {
     return {
       imageUrl: 'https://media-public.canva.com/PLYOw/MAEpYUPLYOw/1/s3.jpg',
+      imageFrameUrl: imageFrame,
     }
   },
 }
@@ -34,7 +38,22 @@ export default {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.hero-section .content {
+.frame-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 3;
   text-align: center;
   max-width: 700px;
 }
@@ -70,16 +89,5 @@ export default {
 
 .cta-button:hover {
   background-color: rgba(255, 255, 255, 0.4);
-}
-
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 250px;
-  bottom: 250px;
-  left: 500px;
-  right: 500px;
-  border: 1px solid rgba(255, 255, 255, 0.8);
-  pointer-events: none;
 }
 </style>
