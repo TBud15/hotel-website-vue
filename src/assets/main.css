@@ -26,3 +26,8 @@
   font-family: 'DMSansRegular';
   src: url('@/assets/fonts/dmsans-regular.ttf');
 }
+
+@font-face {
+  font-family: 'EdwardianFont';
+  src: url('@/assets/fonts/edwardianscriptitc.ttf');
+}
