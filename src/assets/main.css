@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'GeistRegular';
-  src: url('@/assets/fonts/geist-regular.otf');
+  src: url('@/assets/fonts/geist-regular.ttf');
 }
 
 @font-face {
