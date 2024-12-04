@@ -68,4 +68,44 @@
   font-family: 'EdwardianFont';
   font-size: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .box {
+    max-width: 90%;
+  }
+
+  .box p {
+    font-size: 1.1rem;
+  }
+
+  .box .client-name {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .box {
+    max-width: 100%;
+  }
+
+  .box p {
+    font-size: 1rem;
+  }
+
+  .box .client-name {
+    font-size: 1.75rem;
+  }
+}
 </style>

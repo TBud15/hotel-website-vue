@@ -80,4 +80,36 @@
   font-size: 0.9rem;
   color: #333;
 }
+
+@media (max-width: 768px) {
+  .images-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .villa-card {
+    max-width: 90%;
+  }
+
+  .image {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .image {
+    height: 12rem;
+  }
+
+  .details {
+    font-size: 0.8rem;
+  }
+}
 </style>

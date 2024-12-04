@@ -70,12 +70,17 @@
 @media (max-width: 1024px) {
   .title {
     margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   .wrapper {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+  }
+
+  .wrapper .box h3 {
+    font-size: 1.5rem;
   }
 }
 </style>

@@ -128,6 +128,7 @@ export default {
 }
 
 /* Responsive Design */
+/* mp4 background video might be too long for current responsive design */
 @media (max-width: 768px) {
   .top-text h1 {
     font-size: 2.5rem;

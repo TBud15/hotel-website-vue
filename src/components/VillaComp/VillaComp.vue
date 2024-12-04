@@ -58,5 +58,54 @@
   background-size: cover;
   background-position: bottom;
   height: 100%;
+  min-height: 300px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-box {
+    width: 100%;
+    height: 50vh;
+    min-height: 200px;
+  }
+
+  .left-box {
+    padding: 10px;
+  }
+
+  .left-box h1 {
+    font-size: 2.5rem;
+  }
+
+  .left-box p {
+    font-size: 1.2rem;
+  }
+
+  .divider-line {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-box {
+    height: 40vh;
+    min-height: 150px;
+  }
+
+  .left-box h1 {
+    font-size: 2rem;
+  }
+
+  .left-box p {
+    font-size: 1rem;
+  }
+
+  .divider-line {
+    width: 8rem;
+  }
 }
 </style>
